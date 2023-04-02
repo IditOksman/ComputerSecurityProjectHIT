@@ -109,16 +109,13 @@ body {
   color: white;
 }
 
-.login-form .remember-me label input {
+/* .login-form .remember-me label input {
   margin-right: 5px;
   color: white;
-}
+} */
 
 .login-form .remember-me span a {
   color: aqua;
-}
-
-.login-form .remember-me .reset-password {
 }
 
 .input-box,
