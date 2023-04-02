@@ -33,7 +33,7 @@ body {
 }
 
 .login-form .input-box,
-.login-form > button {
+.login-form .registration-input-form input {
   width: 100%;
   height: 50px;
 }
@@ -64,7 +64,7 @@ body {
   border: 2px solid rgb(64, 197, 224);
 }
 
-.login-form > button {
+.login-form .registration-input-form input {
   cursor: pointer;
   width: 100%;
   padding: 0 16px;
@@ -81,7 +81,7 @@ body {
   transition: all 0.375s;
 }
 
-.login-form > button:hover {
+.login-form .registration-input-form input:hover {
   background: rgb(64, 197, 224);
 }
 
@@ -142,7 +142,7 @@ body {
   justify-content: space-between;
 }
 
-.login-card-register button {
+.login-card-register .registration-input-form {
   margin: auto;
   width: 50%;
 }
