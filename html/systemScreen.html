@@ -9,49 +9,66 @@
   </head>
   <body>
     <header>
-      <div class="top-bar">
-        <h1 class="logo">Users Data</h1>
-        <input type="text" placeholder="Search by name/email" />
-
-        <i class="fa-solid fa-magnifying-glass" style="float: right"></i>
-      </div>
+      <h1 class="logo">Users Data</h1>
+      <nav class="navigation">
+        <a href="changePassword.html">Change Password</a>
+        <input type="submit" class="logout-button" value="Logout" />
+      </nav>
     </header>
-    <table>
-      <thead>
-        <tr>
-          <th>User Name</th>
-          <th>Email Address</th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>John Smith</td>
-          <td>john.smith@example.com</td>
-          <td>
-            <i class="fa-solid fa-xmark" style="float: right"></i>
-            <i class="fa-regular fa-pen-to-square" style="float: right"></i>
-          </td>
-        </tr>
-        <tr>
-          <td>Jane Doe</td>
-          <td>jane.doe@example.com</td>
-          <td>
-            <i class="fa-solid fa-xmark" style="float: right"></i>
-            <i class="fa-regular fa-pen-to-square" style="float: right"></i>
-          </td>
-        </tr>
-        <tr>
-          <td>Bob Johnson</td>
-          <td>bob.johnson@example.com</td>
-          <td>
-            <i class="fa-solid fa-xmark" style="float: right"></i>
-            <i class="fa-regular fa-pen-to-square" style="float: right"></i>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <button id="addUser">Add User</button>
+    <div class="system-card">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>User Name</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="add_user_input">
+        <div class="add-user-details">
+          <input type="text" placeholder="User Name" />
+          <input type="text" placeholder="ID" />
+        </div>
+        <div class="addUser-submit-form">
+          <input type="submit" value="Add User" />
+        </div>
+      </div>
+      <span class="change-password-error">Error</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/2c35fa1731.js"

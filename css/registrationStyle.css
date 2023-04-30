@@ -179,3 +179,10 @@ body {
     width: 500px;
   }
 }
+
+.registration-error {
+  color: red;
+  font-weight: bold;
+  padding: 3px;
+  /* display: none; */
+}

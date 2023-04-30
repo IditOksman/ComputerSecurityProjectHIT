@@ -196,6 +196,13 @@ body {
   height: 50px;
 }
 
+.login-form .login-error {
+  color: red;
+  font-weight: bold;
+  padding: 3px;
+  /* display: none; */
+}
+
 @keyframes rotate {
   100% {
     background-position: 15% 50%;
