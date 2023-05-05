@@ -194,7 +194,7 @@ tr:hover {
   border: 2px solid #ebebeb;
   font-family: inherit;
   font: size 15px;
-  padding: 0 30px;
+  padding: 0 10px;
   border-radius: 1.25rem;
   transition: all 0.375s;
 }
